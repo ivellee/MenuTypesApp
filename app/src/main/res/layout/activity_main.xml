@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Toolbar en la parte superior -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:title="Menú Types App"
+        android:titleTextColor="@android:color/white"
+        android:layout_alignParentTop="true" />
+
+    <!-- Botón para el menú Popup -->
+    <Button
+        android:id="@+id/buttonPopup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Popup Menu"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="50dp" />
+
+    <!-- Botón para el menú Contextual -->
+    <Button
+        android:id="@+id/buttonContext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contextual Menu"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/buttonPopup"
+        android:layout_marginTop="20dp" />
+
+</RelativeLayout>
